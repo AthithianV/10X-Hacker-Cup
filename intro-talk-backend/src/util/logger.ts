@@ -16,14 +16,14 @@ const fileFormat = winston.format.combine(
 export const appLogger = winston.createLogger({
     level: "info",
     transports: [
-        new winston.transports.File({filename: "./logs/app.log"})
+        new winston.transports.File({filename: "./logs/app.log", format: fileFormat})
     ]
 })
 
 export const errorLogger = winston.createLogger({
     level: "error",
     transports: [
-        new winston.transports.File({filename: "./logs/error.log"})
+        new winston.transports.File({filename: "./logs/error.log", format: fileFormat})
     ]
 })
 

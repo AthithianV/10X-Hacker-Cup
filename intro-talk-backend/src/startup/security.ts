@@ -1,7 +1,7 @@
 import { Express, Request, Response } from "express";
 import express from "express";
 import cors from "cors";
-import { appLogger } from "../middleware/logger";
+import { appLogger } from "../util/logger";
 
 const securitySetUp = (app:Express) => {
     try{
