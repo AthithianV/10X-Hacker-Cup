@@ -14,7 +14,6 @@ export default class ApplicationError extends Error{
 }
 
 export function errorHandler(err:Error, req:Request, res:Response, next:NextFunction){
-    
     if(err instanceof MongooseError){
         res.status(400).json({success: false, message: "Invalid data in request"});
     }

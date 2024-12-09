@@ -10,8 +10,9 @@ export default class UserController {
 
     register = async (req:Request, res:Response, next:NextFunction)=>{
         try {
-            const body = req.body();
+            const body = req.body;
             const {email, username, password} = body;
+            
             if(!email || !username || !password){
                 throw new ApplicationError(400, "Missing Valid Input(s)");
             }
