@@ -29,3 +29,11 @@ export function errorHandler(err:Error, req:Request, res:Response, next:NextFunc
 export const missingError = (model:string, id:string):ApplicationError =>{
     return new ApplicationError(400, `${model} doet not exists for ID:${id}`);
 }
+
+export const logError = (error:any)=>{
+    if(error instanceof Error)
+        errorLogger.error({name: error.name, message: error.message, stack: error.stack});
+    else{
+        errorLogger.error({message: "Unknown Error Occured"});
+    }
+}

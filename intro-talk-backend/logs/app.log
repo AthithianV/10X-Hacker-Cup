@@ -1,1 +1,195 @@
-{"level":"info","message":"Method: GET, URL: /"}
+{
+  message: 'MongoDB Connected Successfully!',
+  level: 'info',
+  timestamp: '2024-12-09 14:38:35'
+}
+{
+  message: 'Method: POST, URL: /user/register',
+  level: 'info',
+  timestamp: '2024-12-09 14:41:17'
+}
+{
+  message: 'MongoDB Connected Successfully!',
+  level: 'info',
+  timestamp: '2024-12-09 14:44:33'
+}
+{
+  message: 'Method: POST, URL: /user/register',
+  level: 'info',
+  timestamp: '2024-12-09 14:44:35'
+}
+{
+  message: 'MongoDB Connected Successfully!',
+  level: 'info',
+  timestamp: '2024-12-09 14:46:19'
+}
+{
+  message: 'Method: POST, URL: /user/register',
+  level: 'info',
+  timestamp: '2024-12-09 14:46:25'
+}
+{
+  message: 'MongoDB Connected Successfully!',
+  level: 'info',
+  timestamp: '2024-12-09 14:47:09'
+}
+{
+  message: 'Method: POST, URL: /user/register',
+  level: 'info',
+  timestamp: '2024-12-09 14:47:11'
+}
+{
+  message: 'MongoDB Connected Successfully!',
+  level: 'info',
+  timestamp: '2024-12-09 14:47:41'
+}
+{
+  message: 'Method: POST, URL: /user/register',
+  level: 'info',
+  timestamp: '2024-12-09 14:47:44'
+}
+{
+  message: 'Method: GET, URL: /',
+  level: 'info',
+  timestamp: '2024-12-09 14:49:11'
+}
+{
+  message: 'MongoDB Connected Successfully!',
+  level: 'info',
+  timestamp: '2024-12-09 14:50:31'
+}
+{
+  message: 'Method: GET, URL: /',
+  level: 'info',
+  timestamp: '2024-12-09 14:50:34'
+}
+{
+  message: 'MongoDB Connected Successfully!',
+  level: 'info',
+  timestamp: '2024-12-09 14:52:21'
+}
+{
+  message: 'Method: POST, URL: /user/register',
+  level: 'info',
+  timestamp: '2024-12-09 14:52:24'
+}
+{
+  message: 'MongoDB Connected Successfully!',
+  level: 'info',
+  timestamp: '2024-12-09 14:54:33'
+}
+{
+  message: 'MongoDB Connected Successfully!',
+  level: 'info',
+  timestamp: '2024-12-09 14:54:50'
+}
+{
+  message: 'MongoDB Connected Successfully!',
+  level: 'info',
+  timestamp: '2024-12-09 14:56:43'
+}
+{
+  message: 'MongoDB Connected Successfully!',
+  level: 'info',
+  timestamp: '2024-12-09 14:57:01'
+}
+{
+  message: 'MongoDB Connected Successfully!',
+  level: 'info',
+  timestamp: '2024-12-09 14:57:48'
+}
+{
+  message: 'MongoDB Connected Successfully!',
+  level: 'info',
+  timestamp: '2024-12-09 14:58:32'
+}
+{
+  message: 'MongoDB Connected Successfully!',
+  level: 'info',
+  timestamp: '2024-12-09 14:58:55'
+}
+{
+  message: 'MongoDB Connected Successfully!',
+  level: 'info',
+  timestamp: '2024-12-09 14:59:33'
+}
+{
+  message: 'Method: POST, URL: /user/register',
+  level: 'info',
+  timestamp: '2024-12-09 15:06:19'
+}
+{
+  message: 'Method: GET, URL: /',
+  level: 'info',
+  timestamp: '2024-12-09 15:06:54'
+}
+{
+  message: 'MongoDB Connected Successfully!',
+  level: 'info',
+  timestamp: '2024-12-09 15:09:02'
+}
+{
+  message: 'Method: POST, URL: /user/register',
+  level: 'info',
+  timestamp: '2024-12-09 15:09:04'
+}
+{
+  message: 'MongoDB Connected Successfully!',
+  level: 'info',
+  timestamp: '2024-12-09 15:10:26'
+}
+{
+  message: 'Method: GET, URL: /',
+  level: 'info',
+  timestamp: '2024-12-09 15:10:41'
+}
+{
+  message: 'MongoDB Connected Successfully!',
+  level: 'info',
+  timestamp: '2024-12-09 15:11:44'
+}
+{
+  message: 'Method: GET, URL: /',
+  level: 'info',
+  timestamp: '2024-12-09 15:11:58'
+}
+{
+  message: 'MongoDB Connected Successfully!',
+  level: 'info',
+  timestamp: '2024-12-09 15:14:12'
+}
+{
+  message: 'MongoDB Connected Successfully!',
+  level: 'info',
+  timestamp: '2024-12-09 15:14:13'
+}
+{
+  message: 'MongoDB Connected Successfully!',
+  level: 'info',
+  timestamp: '2024-12-09 15:14:23'
+}
+{
+  message: 'MongoDB Connected Successfully!',
+  level: 'info',
+  timestamp: '2024-12-09 15:14:24'
+}
+{
+  message: 'MongoDB Connected Successfully!',
+  level: 'info',
+  timestamp: '2024-12-09 15:14:30'
+}
+{
+  message: 'MongoDB Connected Successfully!',
+  level: 'info',
+  timestamp: '2024-12-09 15:14:30'
+}
+{
+  message: 'MongoDB Connected Successfully!',
+  level: 'info',
+  timestamp: '2024-12-09 15:15:13'
+}
+{
+  message: 'MongoDB Connected Successfully!',
+  level: 'info',
+  timestamp: '2024-12-09 15:15:13'
+}

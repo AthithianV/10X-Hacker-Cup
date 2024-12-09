@@ -1,12 +1,10 @@
-import express, { Request, Response } from "express";
-import initServer from "./startup/init";
-import securitySetUp from "./startup/security";
-import routerSetUp from "./startup/routerSetUp";
+import express from "express";
+import startServer from "./startup/init";
+import router from "./startup/init";
 
 const app = express();
 
-initServer(app);
-securitySetUp(app);
-routerSetUp(app);
+startServer(app);
+router(app);
 
 export default app;

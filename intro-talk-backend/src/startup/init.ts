@@ -1,25 +1,22 @@
 import { Express } from "express";
-import { errorLogger } from "../util/logger";
-import connectDB from "../database/config";
+import dotenv from "dotenv";
 
-const initServer = async (app:Express) => {
+import connectDB from "../database/config";
+import { logError } from "../util/errorHandler";
+
+const startServer = async (app:Express) => {
+
+    dotenv.config();
 
     const port = process.env.PORT || 3000;
     try {
-        if(!process.env.MONGODB_URI){
-            throw new Error("MongoDB URI missing!")
-        }
         await connectDB(process.env.MONGODB_URI);
         app.listen(port, ()=>{
             console.log("Server Started. Server is Listeing at port: " + port);
         })
     } catch (error) {
-        if(error instanceof Error)
-            errorLogger.error({name: error.name, message: error.message, stack: error.stack});
-        else{
-            errorLogger.error({message: "Unknown Error Occured"});
-        }
+        logError(error);
     }
 }
 
-export default initServer;
+export default startServer;
