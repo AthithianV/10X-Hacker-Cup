@@ -1,425 +1,170 @@
 {
   message: 'MongoDB Connected Successfully!',
   level: 'info',
-  timestamp: '2024-12-09 14:38:35'
+  timestamp: '2024-12-09 21:02:36'
+}
+{
+  message: 'MongoDB Connected Successfully!',
+  level: 'info',
+  timestamp: '2024-12-09 21:03:46'
+}
+{
+  message: 'MongoDB Connected Successfully!',
+  level: 'info',
+  timestamp: '2024-12-09 21:03:59'
+}
+{
+  message: 'MongoDB Connected Successfully!',
+  level: 'info',
+  timestamp: '2024-12-09 21:04:16'
+}
+{
+  message: 'Method: POST, URL: /login',
+  level: 'info',
+  timestamp: '2024-12-09 21:05:05'
+}
+{
+  message: 'Method: POST, URL: /login',
+  level: 'info',
+  timestamp: '2024-12-09 21:06:11'
+}
+{
+  message: 'Method: POST, URL: /user/login',
+  level: 'info',
+  timestamp: '2024-12-09 21:06:20'
+}
+{
+  message: 'MongoDB Connected Successfully!',
+  level: 'info',
+  timestamp: '2024-12-09 21:06:54'
+}
+{
+  message: 'Method: POST, URL: /user/login',
+  level: 'info',
+  timestamp: '2024-12-09 21:06:57'
+}
+{
+  message: 'MongoDB Connected Successfully!',
+  level: 'info',
+  timestamp: '2024-12-09 21:07:21'
+}
+{
+  message: 'Method: POST, URL: /user/login',
+  level: 'info',
+  timestamp: '2024-12-09 21:07:25'
+}
+{
+  message: 'Method: POST, URL: /user/login',
+  level: 'info',
+  timestamp: '2024-12-09 21:07:52'
 }
 {
   message: 'Method: POST, URL: /user/register',
   level: 'info',
-  timestamp: '2024-12-09 14:41:17'
+  timestamp: '2024-12-09 21:08:40'
+}
+{
+  message: 'Method: POST, URL: /user/login',
+  level: 'info',
+  timestamp: '2024-12-09 21:08:54'
 }
 {
   message: 'MongoDB Connected Successfully!',
   level: 'info',
-  timestamp: '2024-12-09 14:44:33'
+  timestamp: '2024-12-09 21:09:17'
 }
 {
-  message: 'Method: POST, URL: /user/register',
+  message: 'Method: POST, URL: /user/login',
   level: 'info',
-  timestamp: '2024-12-09 14:44:35'
-}
-{
-  message: 'MongoDB Connected Successfully!',
-  level: 'info',
-  timestamp: '2024-12-09 14:46:19'
-}
-{
-  message: 'Method: POST, URL: /user/register',
-  level: 'info',
-  timestamp: '2024-12-09 14:46:25'
+  timestamp: '2024-12-09 21:09:20'
 }
 {
   message: 'MongoDB Connected Successfully!',
   level: 'info',
-  timestamp: '2024-12-09 14:47:09'
+  timestamp: '2024-12-09 21:09:55'
 }
 {
-  message: 'Method: POST, URL: /user/register',
+  message: 'Method: POST, URL: /user/login',
   level: 'info',
-  timestamp: '2024-12-09 14:47:11'
-}
-{
-  message: 'MongoDB Connected Successfully!',
-  level: 'info',
-  timestamp: '2024-12-09 14:47:41'
-}
-{
-  message: 'Method: POST, URL: /user/register',
-  level: 'info',
-  timestamp: '2024-12-09 14:47:44'
-}
-{
-  message: 'Method: GET, URL: /',
-  level: 'info',
-  timestamp: '2024-12-09 14:49:11'
+  timestamp: '2024-12-09 21:09:56'
 }
 {
   message: 'MongoDB Connected Successfully!',
   level: 'info',
-  timestamp: '2024-12-09 14:50:31'
-}
-{
-  message: 'Method: GET, URL: /',
-  level: 'info',
-  timestamp: '2024-12-09 14:50:34'
+  timestamp: '2024-12-09 21:10:14'
 }
 {
   message: 'MongoDB Connected Successfully!',
   level: 'info',
-  timestamp: '2024-12-09 14:52:21'
-}
-{
-  message: 'Method: POST, URL: /user/register',
-  level: 'info',
-  timestamp: '2024-12-09 14:52:24'
+  timestamp: '2024-12-09 21:10:22'
 }
 {
   message: 'MongoDB Connected Successfully!',
   level: 'info',
-  timestamp: '2024-12-09 14:54:33'
+  timestamp: '2024-12-09 21:10:43'
 }
 {
   message: 'MongoDB Connected Successfully!',
   level: 'info',
-  timestamp: '2024-12-09 14:54:50'
+  timestamp: '2024-12-09 21:11:10'
 }
 {
   message: 'MongoDB Connected Successfully!',
   level: 'info',
-  timestamp: '2024-12-09 14:56:43'
+  timestamp: '2024-12-09 21:15:56'
 }
 {
   message: 'MongoDB Connected Successfully!',
   level: 'info',
-  timestamp: '2024-12-09 14:57:01'
+  timestamp: '2024-12-09 21:16:05'
+}
+{
+  message: 'Method: POST, URL: /user/login',
+  level: 'info',
+  timestamp: '2024-12-09 21:16:09'
 }
 {
   message: 'MongoDB Connected Successfully!',
   level: 'info',
-  timestamp: '2024-12-09 14:57:48'
+  timestamp: '2024-12-09 21:16:39'
 }
 {
   message: 'MongoDB Connected Successfully!',
   level: 'info',
-  timestamp: '2024-12-09 14:58:32'
+  timestamp: '2024-12-09 21:17:50'
 }
 {
   message: 'MongoDB Connected Successfully!',
   level: 'info',
-  timestamp: '2024-12-09 14:58:55'
+  timestamp: '2024-12-09 21:18:17'
 }
 {
   message: 'MongoDB Connected Successfully!',
   level: 'info',
-  timestamp: '2024-12-09 14:59:33'
-}
-{
-  message: 'Method: POST, URL: /user/register',
-  level: 'info',
-  timestamp: '2024-12-09 15:06:19'
-}
-{
-  message: 'Method: GET, URL: /',
-  level: 'info',
-  timestamp: '2024-12-09 15:06:54'
+  timestamp: '2024-12-09 21:18:27'
 }
 {
   message: 'MongoDB Connected Successfully!',
   level: 'info',
-  timestamp: '2024-12-09 15:09:02'
+  timestamp: '2024-12-09 21:24:21'
 }
 {
-  message: 'Method: POST, URL: /user/register',
+  message: 'Method: POST, URL: /user/login',
   level: 'info',
-  timestamp: '2024-12-09 15:09:04'
-}
-{
-  message: 'MongoDB Connected Successfully!',
-  level: 'info',
-  timestamp: '2024-12-09 15:10:26'
-}
-{
-  message: 'Method: GET, URL: /',
-  level: 'info',
-  timestamp: '2024-12-09 15:10:41'
+  timestamp: '2024-12-09 21:24:23'
 }
 {
   message: 'MongoDB Connected Successfully!',
   level: 'info',
-  timestamp: '2024-12-09 15:11:44'
-}
-{
-  message: 'Method: GET, URL: /',
-  level: 'info',
-  timestamp: '2024-12-09 15:11:58'
+  timestamp: '2024-12-09 21:25:38'
 }
 {
   message: 'MongoDB Connected Successfully!',
   level: 'info',
-  timestamp: '2024-12-09 15:14:12'
+  timestamp: '2024-12-09 21:26:30'
 }
 {
   message: 'MongoDB Connected Successfully!',
   level: 'info',
-  timestamp: '2024-12-09 15:14:13'
-}
-{
-  message: 'MongoDB Connected Successfully!',
-  level: 'info',
-  timestamp: '2024-12-09 15:14:23'
-}
-{
-  message: 'MongoDB Connected Successfully!',
-  level: 'info',
-  timestamp: '2024-12-09 15:14:24'
-}
-{
-  message: 'MongoDB Connected Successfully!',
-  level: 'info',
-  timestamp: '2024-12-09 15:14:30'
-}
-{
-  message: 'MongoDB Connected Successfully!',
-  level: 'info',
-  timestamp: '2024-12-09 15:14:30'
-}
-{
-  message: 'MongoDB Connected Successfully!',
-  level: 'info',
-  timestamp: '2024-12-09 15:15:13'
-}
-{
-  message: 'MongoDB Connected Successfully!',
-  level: 'info',
-  timestamp: '2024-12-09 15:15:13'
-}
-{
-  message: 'MongoDB Connected Successfully!',
-  level: 'info',
-  timestamp: '2024-12-09 20:28:17'
-}
-{
-  message: 'MongoDB Connected Successfully!',
-  level: 'info',
-  timestamp: '2024-12-09 20:33:40'
-}
-{
-  message: 'MongoDB Connected Successfully!',
-  level: 'info',
-  timestamp: '2024-12-09 20:33:40'
-}
-{
-  message: 'MongoDB Connected Successfully!',
-  level: 'info',
-  timestamp: '2024-12-09 20:39:21'
-}
-{
-  message: 'MongoDB Connected Successfully!',
-  level: 'info',
-  timestamp: '2024-12-09 20:39:21'
-}
-{
-  message: 'MongoDB Connected Successfully!',
-  level: 'info',
-  timestamp: '2024-12-09 20:39:39'
-}
-{
-  message: 'MongoDB Connected Successfully!',
-  level: 'info',
-  timestamp: '2024-12-09 20:39:39'
-}
-{
-  message: 'MongoDB Connected Successfully!',
-  level: 'info',
-  timestamp: '2024-12-09 20:40:05'
-}
-{
-  message: 'MongoDB Connected Successfully!',
-  level: 'info',
-  timestamp: '2024-12-09 20:40:05'
-}
-{
-  message: 'MongoDB Connected Successfully!',
-  level: 'info',
-  timestamp: '2024-12-09 20:42:40'
-}
-{
-  message: 'MongoDB Connected Successfully!',
-  level: 'info',
-  timestamp: '2024-12-09 20:42:55'
-}
-{
-  message: 'MongoDB Connected Successfully!',
-  level: 'info',
-  timestamp: '2024-12-09 20:46:21'
-}
-{
-  message: 'MongoDB Connected Successfully!',
-  level: 'info',
-  timestamp: '2024-12-09 20:46:49'
-}
-{
-  message: 'MongoDB Connected Successfully!',
-  level: 'info',
-  timestamp: '2024-12-09 20:47:52'
-}
-{
-  message: 'MongoDB Connected Successfully!',
-  level: 'info',
-  timestamp: '2024-12-09 20:50:51'
-}
-{
-  message: 'Method: POST, URL: /user/register',
-  level: 'info',
-  timestamp: '2024-12-09 20:51:03'
-}
-{
-  message: 'MongoDB Connected Successfully!',
-  level: 'info',
-  timestamp: '2024-12-09 20:51:33'
-}
-{
-  message: 'Method: POST, URL: /user/register',
-  level: 'info',
-  timestamp: '2024-12-09 20:51:36'
-}
-{
-  message: 'MongoDB Connected Successfully!',
-  level: 'info',
-  timestamp: '2024-12-09 20:52:11'
-}
-{
-  message: 'MongoDB Connected Successfully!',
-  level: 'info',
-  timestamp: '2024-12-09 20:52:16'
-}
-{
-  message: 'Method: POST, URL: /user/register',
-  level: 'info',
-  timestamp: '2024-12-09 20:52:19'
-}
-{
-  message: 'Method: GET, URL: /',
-  level: 'info',
-  timestamp: '2024-12-09 20:52:39'
-}
-{
-  message: 'MongoDB Connected Successfully!',
-  level: 'info',
-  timestamp: '2024-12-09 20:52:58'
-}
-{
-  message: 'Method: GET, URL: /',
-  level: 'info',
-  timestamp: '2024-12-09 20:52:58'
-}
-{
-  message: 'MongoDB Connected Successfully!',
-  level: 'info',
-  timestamp: '2024-12-09 20:53:04'
-}
-{
-  message: 'Method: GET, URL: /',
-  level: 'info',
-  timestamp: '2024-12-09 20:53:04'
-}
-{
-  message: 'Method: GET, URL: /favicon.ico',
-  level: 'info',
-  timestamp: '2024-12-09 20:53:04'
-}
-{
-  message: 'Method: GET, URL: /',
-  level: 'info',
-  timestamp: '2024-12-09 20:53:04'
-}
-{
-  message: 'Method: POST, URL: /user/register',
-  level: 'info',
-  timestamp: '2024-12-09 20:53:11'
-}
-{
-  message: 'MongoDB Connected Successfully!',
-  level: 'info',
-  timestamp: '2024-12-09 20:53:37'
-}
-{
-  message: 'Method: POST, URL: /user/register',
-  level: 'info',
-  timestamp: '2024-12-09 20:53:41'
-}
-{
-  message: 'MongoDB Connected Successfully!',
-  level: 'info',
-  timestamp: '2024-12-09 20:54:48'
-}
-{
-  message: 'Method: POST, URL: /user/register',
-  level: 'info',
-  timestamp: '2024-12-09 20:54:52'
-}
-{
-  message: 'Method: POST, URL: /user/register',
-  level: 'info',
-  timestamp: '2024-12-09 20:55:00'
-}
-{
-  message: 'MongoDB Connected Successfully!',
-  level: 'info',
-  timestamp: '2024-12-09 20:55:33'
-}
-{
-  message: 'MongoDB Connected Successfully!',
-  level: 'info',
-  timestamp: '2024-12-09 20:55:43'
-}
-{
-  message: 'Method: POST, URL: /user/register',
-  level: 'info',
-  timestamp: '2024-12-09 20:56:22'
-}
-{
-  message: 'MongoDB Connected Successfully!',
-  level: 'info',
-  timestamp: '2024-12-09 20:56:39'
-}
-{
-  message: 'MongoDB Connected Successfully!',
-  level: 'info',
-  timestamp: '2024-12-09 20:57:10'
-}
-{
-  message: 'Method: POST, URL: /user/register',
-  level: 'info',
-  timestamp: '2024-12-09 20:57:12'
-}
-{
-  message: 'MongoDB Connected Successfully!',
-  level: 'info',
-  timestamp: '2024-12-09 20:57:25'
-}
-{
-  message: 'Method: POST, URL: /user/register',
-  level: 'info',
-  timestamp: '2024-12-09 20:57:28'
-}
-{
-  message: 'Method: POST, URL: /user/register',
-  level: 'info',
-  timestamp: '2024-12-09 20:58:35'
-}
-{
-  message: 'MongoDB Connected Successfully!',
-  level: 'info',
-  timestamp: '2024-12-09 20:58:57'
-}
-{
-  message: 'Method: POST, URL: /user/register',
-  level: 'info',
-  timestamp: '2024-12-09 20:58:57'
-}
-{
-  message: 'MongoDB Connected Successfully!',
-  level: 'info',
-  timestamp: '2024-12-09 20:59:27'
+  timestamp: '2024-12-09 21:26:38'
 }

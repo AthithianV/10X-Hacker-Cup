@@ -16,11 +16,12 @@ export default class ApplicationError extends Error{
 export function errorHandler(err:Error, req:Request, res:Response, next:NextFunction){
     if(err instanceof MongooseError){
         res.status(400).json({success: false, message: "Invalid data in request"});
+        return;
     }
     if(err instanceof ApplicationError){
         res.status(err.code).json({success: false, message: err.message});
     }else{
-        errorLogger.error({name: err.name, message: err.message, trace: err.stack});
+        logError(err);
         res.status(500).json({success: false, message: "Unknown Error Occured. Please Try Again Later."});
     }
 }

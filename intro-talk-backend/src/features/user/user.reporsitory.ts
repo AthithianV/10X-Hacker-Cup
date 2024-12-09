@@ -3,6 +3,7 @@ import bcrypt from "bcryptjs";
 import { UserType } from "../../types/user.type";
 import ApplicationError from "../../util/errorHandler";
 import UserModel from "./user.schema";
+import mongoose from "mongoose";
 
 export default class UserReporsitory {
 
@@ -20,6 +21,24 @@ export default class UserReporsitory {
             const hashedPassword = await bcrypt.hash(password, 12);
             const newUser = new UserModel({email, username, password: hashedPassword});
             await newUser.save();
+        } catch (error) {
+            throw error;
+        }
+    }
+    
+    login = async (email:string, password:string):Promise<{id:mongoose.Types.ObjectId, email:string}>=>{
+        try {
+            const user = await UserModel.findOne({email});
+            if(!user){
+                throw new ApplicationError(400, "Email or Password Incorrect");
+            }
+
+            const passwordMatch = await bcrypt.compare(password, user.password);
+            if(!passwordMatch){
+                throw new ApplicationError(400, "Email or Password Incorrect");
+            }
+
+            return {id: user._id, email:user.email};
         } catch (error) {
             throw error;
         }
