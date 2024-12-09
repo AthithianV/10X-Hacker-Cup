@@ -3,7 +3,7 @@ import { Request, Response } from "express";
 import cors from "cors";
 import { appLogger } from "./util/logger";
 import UserRouter from "./features/user/user.router";
-import { errorHandler } from "./util/errorHandler";
+import errorHandlerMiddleware from "./middlewares/errorHandlerMiddleware";
 
 const app = express();
 
@@ -21,7 +21,7 @@ app.get("/", (req:Request, res:Response)=>{
 
 app.use("/user", UserRouter);
 
-app.use(errorHandler);
+app.use(errorHandlerMiddleware);
 app.use((req:Request, res:Response)=>{
     res.status(404).json({success: false, message: "Page Not Found"});
 })

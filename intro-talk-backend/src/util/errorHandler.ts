@@ -13,19 +13,6 @@ export default class ApplicationError extends Error{
     }
 }
 
-export function errorHandler(err:Error, req:Request, res:Response, next:NextFunction){
-    if(err instanceof MongooseError){
-        res.status(400).json({success: false, message: "Invalid data in request"});
-        return;
-    }
-    if(err instanceof ApplicationError){
-        res.status(err.code).json({success: false, message: err.message});
-    }else{
-        logError(err);
-        res.status(500).json({success: false, message: "Unknown Error Occured. Please Try Again Later."});
-    }
-}
-
 export const missingError = (model:string, id:string):ApplicationError =>{
     return new ApplicationError(400, `${model} doet not exists for ID:${id}`);
 }
