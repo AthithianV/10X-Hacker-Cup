@@ -32,9 +32,28 @@ export default class ProfileController {
         }
     }
 
-    fun2 = async (req:Request, res:Response, next:NextFunction)=>{
+    updateProfile = async (req:Request, res:Response, next:NextFunction)=>{
         try {
-            
+            const { age, gender, occupation, communication_preference } = req.body;
+            const profileId = req.params.profileId;
+            const checkforValidprofileId = new RegExp('^[0-9a-fA-F]{24}$');
+            if(!profileId || !checkforValidprofileId.test(profileId)){
+                throw new ApplicationError(400, "Invalid ProfileId");
+            }
+
+            if(!req.user){
+                throw new ApplicationError(403, `Unauthorized to Update Profile with ID:[${profileId}]`);
+            }
+
+            const newProfile = await this.profileReporsitory.updateProfile({
+                userId: new mongoose.Types.ObjectId(req.user.id),
+                age, 
+                gender, 
+                occupation,
+                communication_preference
+            }, new mongoose.Types.ObjectId(profileId));
+
+            res.status(201).send({success: true, message: "Profile has been updated Successfully", profile: newProfile});
         } catch (error) {            
             next(error);
         }

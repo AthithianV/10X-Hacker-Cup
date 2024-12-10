@@ -4,7 +4,9 @@
   "description": "A backend application for Intro talk.",
   "main": "app.js",
   "scripts": {
-    "dev": "nodemon"
+    "dev": "nodemon src/index.ts",
+    "build": "npx tsc",
+    "start": "node build/index.js"
   },
   "author": "Athithian",
   "license": "ISC",
