@@ -1,7 +1,7 @@
 import mongoose from "mongoose";
 
 const ProfileSchema = new mongoose.Schema({
-    uid: {
+    userId: {
         type: mongoose.SchemaTypes.ObjectId,
         ref: 'users',
         required: [true, 'Email is required'],

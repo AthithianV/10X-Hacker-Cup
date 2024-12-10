@@ -14,12 +14,13 @@ export default class ProfileController {
     createProfile = async (req:Request, res:Response, next:NextFunction)=>{
         try {
             const { age, gender, occupation, communication_preference } = req.body;
-            const uid = req.params.userId;
-            if(!uid){
-                throw new ApplicationError(400, "UserId Missing");
+            const userId = req.params.userId;
+            const checkforValidUserID = new RegExp('^[0-9a-fA-F]{24}$');
+            if(!userId || !checkforValidUserID.test(userId)){
+                throw new ApplicationError(400, "Invalid UserId");
             }
             const newProfile = await this.profileReporsitory.createProfile({
-                uid: new mongoose.Types.ObjectId(uid),
+                userId: new mongoose.Types.ObjectId(userId),
                 age, 
                 gender, 
                 occupation,

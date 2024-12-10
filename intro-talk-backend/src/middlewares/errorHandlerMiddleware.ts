@@ -5,7 +5,7 @@ import ApplicationError, { logError } from "../util/errorHandler";
 
 export default function errorHandlerMiddleware(err:Error, req:Request, res:Response, next:NextFunction){
     if(err instanceof MongooseError){
-        res.status(400).json({success: false, message: "Invalid data in request"});
+        res.status(400).json({success: false, message: "Invalid data in request, "+err.message});
         return;
     }
     if(err instanceof ApplicationError){
