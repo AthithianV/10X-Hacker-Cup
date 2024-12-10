@@ -16,19 +16,11 @@ const ProfileSchema = new mongoose.Schema({
     },
     personality: {
         type: mongoose.SchemaTypes.ObjectId,
-        ref: 'personality',
+        ref: 'personalities',
     },
-    hobbies: {
-        type: [String]
-    },
-    books: {
-        type: [String]
-    },
-    anime: {
-        type: [String]
-    },
-    movies: {
-        type: [String]
+    interest: {
+        type: mongoose.SchemaTypes.ObjectId,
+        ref: 'interests'
     },
     occupation: {
         type: String
@@ -40,5 +32,5 @@ const ProfileSchema = new mongoose.Schema({
     timestamps: true
 })
 
-const UserModel = mongoose.model("users", ProfileSchema);
-export default UserModel;
+const ProfileModel = mongoose.model("profiles", ProfileSchema);
+export default ProfileModel;

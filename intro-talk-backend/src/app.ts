@@ -4,6 +4,7 @@ import cors from "cors";
 import { appLogger } from "./util/logger";
 import UserRouter from "./features/user/user.router";
 import errorHandlerMiddleware from "./middlewares/errorHandlerMiddleware";
+import ProfileRouter from "./features/profile/profile.router";
 
 const app = express();
 
@@ -20,6 +21,7 @@ app.get("/", (req:Request, res:Response)=>{
 })
 
 app.use("/user", UserRouter);
+app.use("/profile", ProfileRouter);
 
 app.use(errorHandlerMiddleware);
 app.use((req:Request, res:Response)=>{
