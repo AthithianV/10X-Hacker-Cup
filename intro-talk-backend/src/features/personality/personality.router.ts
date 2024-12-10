@@ -6,6 +6,4 @@ const PersonalityRouter = express.Router();
 const personalityController = new PersonalityController();
 
 
-
-
 export default PersonalityRouter;

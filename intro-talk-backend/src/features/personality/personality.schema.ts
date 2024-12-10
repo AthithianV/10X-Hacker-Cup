@@ -1,18 +1,11 @@
 import mongoose from "mongoose";
 
 const PersonalitySchema = new mongoose.Schema({
-    hobbies: {
-        type: [String]
-    },
-    books: {
-        type: [String]
-    },
-    anime: {
-        type: [String]
-    },
-    movies: {
-        type: [String]
-    },
+    extraversion: Number, 
+    agreeableness: Number, 
+    conscientiousness: Number, 
+    neuroticism: Number,
+    openness: Number
 }, {
     timestamps: true
 })

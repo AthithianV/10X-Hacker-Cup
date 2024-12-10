@@ -1,11 +1,19 @@
 import bcrypt from "bcryptjs";
 
-import { UserType } from "../../types/user.type";
+import { UserType } from "../../types/user";
 import ApplicationError from "../../util/errorHandler";
 import UserModel from "./user.schema";
 import mongoose from "mongoose";
 
 export default class UserReporsitory {
+
+    static getUserById = async (userId:mongoose.Types.ObjectId):Promise<UserType>=> {
+        const user = await UserModel.findById(userId);
+        if(!user){
+            throw new ApplicationError(400, "User Does not Exists, Please Check UserID");            
+        }
+        return {_id: user._id, username: user.username, email: user.email}
+    }
 
     register = async (email:string, username:string, password:string):Promise<void>=>{
         try {

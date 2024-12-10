@@ -8,7 +8,7 @@ const ProfileSchema = new mongoose.Schema({
     },
     age: {
         type: Number,
-        min: 13
+        min: [13, 'Age Must be at least 13']
     },
     gender: {
         type: String,
@@ -22,12 +22,8 @@ const ProfileSchema = new mongoose.Schema({
         type: mongoose.SchemaTypes.ObjectId,
         ref: 'interests'
     },
-    occupation: {
-        type: String
-    },
-    communication_preference: {
-        type: String
-    }
+    occupation: { type: String },
+    communication_preference: { type: String }
 }, {
     timestamps: true
 })

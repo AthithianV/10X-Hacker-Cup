@@ -4,7 +4,7 @@ export type UserType = {
     _id?: mongoose.Types.ObjectId,
     username: string,
     email: string,
-    password: string,
+    password?: string,
 }
 
 export type UserDocument = UserType & Document;
